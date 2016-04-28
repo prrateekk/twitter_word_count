@@ -1,0 +1,13 @@
+<html>
+
+<body>
+
+<center>
+	<h1>
+	Welcome {{name}}!
+	</h1>
+</center>
+
+</body>
+
+</html>
