@@ -1,13 +1,36 @@
 <html>
+<head>
+
+<title>Tweet Counter</title>
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}" type="favicon/ico" />
+
+</head>
+
 
 <body>
 
-<center>
-	<h1>
-	 {{ count }}!
-	</h1>
-</center>
+<script>
+function show(){
+	var e = document.getElementById('cssload-loader');
+	e.style.display = 'block';
+	document.getElementById('sbmt').value = 'COUNTING';
+	document.getElementById('note').style.display = 'block';
+}
+</script>
 
+<center>
+
+<div id='box'>
+	<h1>Tweet Counter</h1>
+	<br>
+	<p>THE COUNT IS {{count}}</p>
+
+	<p>App built by Prateek Agarwal.</p>
+	<div id="cssload-loader" ></div>
+</div>
+</center>
 </body>
 
 </html>

@@ -1,0 +1,156 @@
+
+	#cssload-loader{
+		display: none;
+		width: 12px;
+		height: 12px;
+		left: 46%;
+		left: calc(50% - 6px);
+			left: -o-calc(50% - 6px);
+			left: -ms-calc(50% - 6px);
+			left: -webkit-calc(50% - 6px);
+			left: -moz-calc(50% - 6px);
+		
+		border-radius: 12px;
+		background-color: rgb(0,0,0);
+		transform-origin:	50% 50%;
+			-o-transform-origin:	50% 50%;
+			-ms-transform-origin:	50% 50%;
+			-webkit-transform-origin:	50% 50%;
+			-moz-transform-origin:	50% 50%;
+		animation: cssload-loader 1.15s ease-in-out infinite;
+			-o-animation: cssload-loader 1.15s ease-in-out infinite;
+			-ms-animation: cssload-loader 1.15s ease-in-out infinite;
+			-webkit-animation: cssload-loader 1.15s ease-in-out infinite;
+			-moz-animation: cssload-loader 1.15s ease-in-out infinite;
+	}
+
+	#cssload-loader:before{
+		content: "";
+		position: absolute;
+		background-color: rgb(0,0,0);
+		top: 0px;
+		left: -24px;
+		height: 12px;
+		width: 12px;
+		border-radius: 12px;
+	}
+
+	#cssload-loader:after{
+		content: "";
+		position: absolute;
+		background-color: rgb(0,0,0);
+		top: 0px;
+		left: 24px;
+		height: 12px;
+		width: 12px;
+		border-radius: 12px;
+	}
+
+	@keyframes cssload-loader{
+			0%{transform:rotate(0deg);}
+			50%{transform:rotate(180deg);}
+			100%{transform:rotate(180deg);}
+	}
+
+	@-o-keyframes cssload-loader{
+			0%{-o-transform:rotate(0deg);}
+			50%{-o-transform:rotate(180deg);}
+			100%{-o-transform:rotate(180deg);}
+	}
+
+	@-ms-keyframes cssload-loader{
+			0%{-ms-transform:rotate(0deg);}
+			50%{-ms-transform:rotate(180deg);}
+			100%{-ms-transform:rotate(180deg);}
+	}
+
+	@-webkit-keyframes cssload-loader{
+			0%{-webkit-transform:rotate(0deg);}
+			50%{-webkit-transform:rotate(180deg);}
+			100%{-webkit-transform:rotate(180deg);}
+	}
+
+	@-moz-keyframes cssload-loader{
+			0%{-moz-transform:rotate(0deg);}
+			50%{-moz-transform:rotate(180deg);}
+			100%{-moz-transform:rotate(180deg);}
+	}
+
+
+	#box{
+		font-family: CaviarDreams;
+		font-size: 20px;
+		position: absolute;
+		margin: auto;
+		top: -100;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 500;
+	 	height: 450;
+	 	border:solid;
+		border-radius: 3px;
+	}
+
+	#slct{
+		border: 1px solid #ccc;
+	    width: 120px;
+	    height: 25px;
+	    border-radius: 3px;
+	    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
+	}
+	@font-face {
+	   font-family: CaviarDreams; 
+	   src: url('CaviarDreams.ttf');
+	} 
+
+	input[type=text] {
+	    width: 180px;
+	    height: 25px;
+	    padding: 14px 16px;
+	    margin: 8px 0;
+	    box-sizing: border-box;
+	    border: 3px solid #ccc;
+	    color: black;
+	    outline: none;
+	    -webkit-transition: 0.5s;
+    	transition: 0.5s;
+	}
+	input[type=text]:hover {
+	    border: 3px solid #555;
+	}
+	input[type=text]:focus {
+	    border: 3px solid #555;
+	}
+	input[type=submit] {
+	    background-color: #333333;
+	    border: none;
+	    color: white;
+	    padding: 16px 32px;
+	    text-decoration: none;
+	    margin: 4px 2px;
+	    cursor: pointer;
+	}
+	select{
+		width: 180px;
+		padding: 6px 16px;
+		background-color: #f1f1f1;
+		border: 3px solid #ccc;
+		outline: none;
+		-webkit-transition: 0.5s;
+    	transition: 0.5s;
+	}
+	select:focus {
+	    border: 3px solid #555;
+	}
+	select:hover {
+	    border: 3px solid #555;
+	}
+
+	#note{
+		font-size: 12px;
+		margin-left:30px;
+		margin-right: 30px;
+		display: none;
+	}
+
