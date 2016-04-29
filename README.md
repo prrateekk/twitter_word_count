@@ -13,6 +13,11 @@ Using Flask Framework and Tweepy twitter API for Python
 
 <h3>Running the application</h3>
 <ul>
-<li></li>
+<li>Run the python script</li>
+<li>Now open - http://localhost:5000 on your browser</li>
+<li>The application is displayed.</li>
+<li>![Alt text](/static/screenshots/s1.png?raw=true "Optional Title")</li>
+<li>![Alt text](/static/screenshots/s2.png?raw=true "Optional Title")</li>
+<li>![Alt text](/static/screenshots/s3.png?raw=true "Optional Title")</li>
 </ul>
 
