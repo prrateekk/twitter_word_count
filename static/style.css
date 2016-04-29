@@ -1,16 +1,20 @@
+	
+	body{
+		background-color: #f2f2f2;
+	}
 
 	#cssload-loader{
 		display: none;
-		width: 12px;
-		height: 12px;
+		width: 8;
+		height: 8;
 		left: 46%;
-		left: calc(50% - 6px);
-			left: -o-calc(50% - 6px);
-			left: -ms-calc(50% - 6px);
-			left: -webkit-calc(50% - 6px);
-			left: -moz-calc(50% - 6px);
+		left: calc(50% - 4px);
+			left: -o-calc(50% - 4px);
+			left: -ms-calc(50% - 4px);
+			left: -webkit-calc(50% - 4px);
+			left: -moz-calc(50% - 4px);
 		
-		border-radius: 12px;
+		border-radius: 8px;
 		background-color: rgb(0,0,0);
 		transform-origin:	50% 50%;
 			-o-transform-origin:	50% 50%;
@@ -29,10 +33,10 @@
 		position: absolute;
 		background-color: rgb(0,0,0);
 		top: 0px;
-		left: -24px;
-		height: 12px;
-		width: 12px;
-		border-radius: 12px;
+		left: -16px;
+		height: 8px;
+		width: 8px;
+		border-radius: 8px;
 	}
 
 	#cssload-loader:after{
@@ -40,10 +44,10 @@
 		position: absolute;
 		background-color: rgb(0,0,0);
 		top: 0px;
-		left: 24px;
-		height: 12px;
-		width: 12px;
-		border-radius: 12px;
+		left: 16px;
+		height: 8px;
+		width: 8px;
+		border-radius: 8px;
 	}
 
 	@keyframes cssload-loader{
@@ -78,7 +82,8 @@
 
 
 	#box{
-		font-family: CaviarDreams;
+		background-color: white;
+		font-family: ubuntu;
 		font-size: 20px;
 		position: absolute;
 		margin: auto;
@@ -88,8 +93,12 @@
 		left: 0;
 		width: 500;
 	 	height: 450;
-	 	border:solid;
-		border-radius: 3px;
+	 	border: 4px solid;
+		border-radius: 10px;
+	}
+
+	#hd{
+		font-family: CaviarDreams;
 	}
 
 	#slct{
@@ -100,12 +109,16 @@
 	    background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
 	}
 	@font-face {
+	   font-family: ubuntu; 
+	   src: url('ubuntu_light.ttf');
+	} 
+	@font-face {
 	   font-family: CaviarDreams; 
 	   src: url('CaviarDreams.ttf');
 	} 
 
 	input[type=text] {
-	    width: 180px;
+	    width: 200px;
 	    height: 25px;
 	    padding: 14px 16px;
 	    margin: 8px 0;
@@ -123,7 +136,7 @@
 	    border: 3px solid #555;
 	}
 	input[type=submit] {
-	    background-color: #333333;
+	    background-color: #1a1a1a;
 	    border: none;
 	    color: white;
 	    padding: 16px 32px;
@@ -132,7 +145,7 @@
 	    cursor: pointer;
 	}
 	select{
-		width: 180px;
+		width: 200px;
 		padding: 6px 16px;
 		background-color: #f1f1f1;
 		border: 3px solid #ccc;
@@ -154,3 +167,16 @@
 		display: none;
 	}
 
+	a:link, a:visited {
+	    background-color: #1a1a1a;
+	    color: white;
+	    padding: 8px 25px;
+	    text-align: center;	
+	    text-decoration: none;
+	    display: inline-block;
+	}
+
+
+	a:hover, a:active {
+	    background-color: #4d4d4d;
+	}
