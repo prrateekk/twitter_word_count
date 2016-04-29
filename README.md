@@ -16,9 +16,11 @@ Using Flask Framework and Tweepy twitter API for Python
 <li>Run the python script</li>
 <li>Now open - http://localhost:5000 on your browser</li>
 <li>The application is displayed.</li>
-<li><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s1.png"></li>
-<li><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s2.png"></li>
-<li><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s3.png"></li>
 </ul>
+<br><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s1.png"><br>
+<br><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s2.png"><br>
+<br><img src="https://raw.githubusercontent.com/prrateekk/twitter_word_count/master/static/screenshots/s3.png"><br>
+
+
 
 
