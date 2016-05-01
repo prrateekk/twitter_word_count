@@ -1,6 +1,7 @@
 # Twitter Word Counter
 Using Flask Framework and Tweepy twitter API for Python
 
+<a href = "https://tweet-count.herokuapp.com/">APP LINK</a>
 <h2>How to Use</h2>
 
 <h3>Setting up Modules and Keys</h3>
